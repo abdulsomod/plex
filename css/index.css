@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Pacifico', cursive, sans-serif;
+}
+
+:root{
+    font-size: 12px;
+}
+
+.plex-sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 320px;
+    border-right: 1px solid #ededed;
+    background: #f9f9f9;
+}
+
+.side-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 1.8rem;
+}
+
+.header h3{
+    font-family: 'Pacifico', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #4a4a4a;
+}
+
+.menu{
+    padding-top: .8rem;
+}
+
+.side-profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.1rem;
+}
+
+.profile-pics{
+    position: relative;
+}
+
+.profile-pix{
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.badge{
+    background: #E73C7E;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: .5rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-name{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.profile-name h3{
+    color: #4a4a4a;
+    font-size: 1.2rem;
+}
+
+.profile-name p{
+    color: #999999;
+    padding-bottom: 2rem;
+}
+
+.menu-details{
+    font-family: ubuntu;
+
+}
+
+.menu-items{
+    text-decoration: none;
+    color: #868686;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 5rem;
+    width: 198px;
+}
+
+.menu-items span{
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menu-icons{
+    color: grey;
+}
+
+.menu-items:hover{
+    border-right: 2px solid #E73C7E;
+}
