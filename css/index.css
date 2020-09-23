@@ -150,3 +150,7 @@ body{
     display: flex;
     align-items: center;
 }
+
+.end-nav{
+    display: flex;
+}
