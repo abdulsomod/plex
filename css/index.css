@@ -129,7 +129,7 @@ body{
     /* width: 48vw; */
     background-color: #fff;
     border-radius: 3px;
-    padding: .9rem 1rem;
+    padding: .2rem 1rem;
 }
 
 .start-nav:hover{
@@ -155,11 +155,24 @@ body{
 .end-nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 12rem;
+    margin-left: 10rem;
 }
 
 .imge{
-    width: 3rem;
+    width: 3.5rem;
     border-radius: 50%;
+}
+
+.msg:hover{
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
 }
