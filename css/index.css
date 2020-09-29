@@ -213,6 +213,8 @@ body{
 
 .price{
     width: 45rem;
+    padding-right: 2rem;
+    border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
 .header{
@@ -240,5 +242,29 @@ body{
     width: 35rem;
     color: #999999;
     font-size: 1.3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.october{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem 0;
+    /* justify-content: space-between; */
+}
+
+.october .date{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, .4);
+}
+
+.october p{
+    margin-left: 3rem;
+    color: rgba(0, 0, 0, .7);
+    font-size: 1.1rem;
+    font-family: montserrat;
+}
+
+.summary{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
