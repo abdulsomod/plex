@@ -245,7 +245,8 @@ body{
     padding-bottom: 1.5rem;
 }
 
-.october{
+.october,
+.september{
     display: grid;
     grid-template-columns: auto 1fr auto;
     border-top: 1px solid rgba(0, 0, 0, .1);
@@ -253,16 +254,33 @@ body{
     /* justify-content: space-between; */
 }
 
-.october .date{
+.date{
     font-size: 1.2rem;
     color: rgba(0, 0, 0, .4);
 }
 
-.october p{
+.october p,
+.september p{
     margin-left: 3rem;
     color: rgba(0, 0, 0, .7);
     font-size: 1.1rem;
     font-family: montserrat;
+    font-weight: bold;
+}
+
+.amount{
+    font-family: montserrat;
+    font-size: 1.1rem;
+    font-weight: bold;
+ 
+}
+
+.october .amount{
+    color: rgba(0, 0, 0, .5);
+}
+
+.september .amount{
+    color: #E73C7E;
 }
 
 .summary{
