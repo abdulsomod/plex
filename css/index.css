@@ -28,7 +28,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .6rem 1.8rem;
+    margin: 0 1.8rem;
 }
 
 .header h3{
@@ -36,16 +36,15 @@ body{
     font-weight: bold;
     font-size: 2rem;
     color: #4a4a4a;
+    margin-top: 1rem;
 }
 
-.menu{
-    padding-top: .8rem;
-}
+
 
 .side-profile{
     display: flex;
     justify-content: center;
-    padding-top: 2.1rem;
+    padding-top: 2rem;
 }
 
 .profile-pics{
@@ -132,11 +131,12 @@ body{
     background-color: #fff;
     border-radius: 3px;
     padding: .2rem 1rem;
+    border: .5px solid rgba(0, 0, 0, .1);
 }
 
-.start-nav:hover{
-    border: .5px solid grey;
-}
+/* .start-nav:hover{
+    border: .2px solid rgba(0, 0, 0, .1);
+} */
 
 .start-nav input{
     outline: none;
@@ -209,6 +209,7 @@ body{
     border-radius: 5px;
     font-family: ubuntu;
     padding: 3rem 2.5rem;
+    border: .5px solid rgba(0, 0, 0, .1);
 }
 
 .price{
@@ -283,11 +284,19 @@ body{
     color: #E73C7E;
 }
 
-.chart{
+.summary .chart{
     display: flex;
     width: 23rem;
     justify-content: space-between;
     margin-left: 3.5rem;
+}
+
+.summary .summ{
+    font-size: 1.4rem;
+    margin:  0 1rem .8rem 2.5rem;
+    font-family: montserrat;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .7);
 }
   
 .chart p{
