@@ -283,6 +283,115 @@ body{
     color: #E73C7E;
 }
 
-.summary{
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+.chart{
+    display: flex;
+    width: 23rem;
+    justify-content: space-between;
+    margin-left: 3.5rem;
 }
+  
+.chart p{
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, .4)
+}
+  
+.bar,
+.bar1,
+.bar2,
+.bar3,
+.bar4,
+.bar5,
+.bar6{
+    position: relative;
+    display: block;
+    margin: 2vh auto;
+    width: 10px;
+    height: 27vh;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 30px;
+}
+  
+  .bar:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:55%;
+    background: rgba(231, 60, 126);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar1:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:90%;
+    background: rgba(231, 60, 126);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar2:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:45%;
+    background: rgb(141,192,253);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar3:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:65%;
+    background: rgba(231, 60, 126);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar4:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:70%;
+    background: rgba(231, 60, 126);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar5:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:80%;
+    background: rgba(231, 60, 126);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
+  .bar6:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height:35%;
+    background: rgba(141, 192, 253);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  
