@@ -39,8 +39,6 @@ body{
     margin-top: 1rem;
 }
 
-
-
 .side-profile{
     display: flex;
     justify-content: center;
@@ -320,7 +318,7 @@ body{
     border-radius: 30px;
 }
   
-  .bar:after {
+.bar:after {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -330,9 +328,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar1:after{
+.bar1:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -342,9 +340,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar2:after{
+.bar2:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -354,9 +352,9 @@ body{
     background: rgb(141,192,253);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar3:after{
+.bar3:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -366,9 +364,8 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
-  
-  .bar4:after{
+}
+.bar4:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -378,9 +375,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar5:after{
+.bar5:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -390,9 +387,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar6:after{
+.bar6:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -402,5 +399,24 @@ body{
     background: rgba(141, 192, 253);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
+
+.smith{
+    display: flex;
+    width: 80rem;
+    background: #fff;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.mary{
+
+
+}
+
+.incoming{
+    /* width: 26rem;
+    height: 10rem;
+    background: #fff;
+} */
   
