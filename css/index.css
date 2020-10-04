@@ -115,7 +115,7 @@ body{
 .page{
     padding: .8rem 3rem;
     background: #f7f7f7;
-
+    overflow: hidden;
 }
 
 .page-nav{
@@ -401,22 +401,41 @@ body{
     border-top-left-radius: 30px;
 }
 
-.smith{
+.mary{
     display: flex;
     width: 80rem;
-    background: #fff;
     height: 10rem;
-    margin-top: 2rem;
+    margin-top: 2.6rem;
+    background: #fff;
+    align-items: center;
 }
 
-.mary{
-
-
+.icon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.incoming{
-    /* width: 26rem;
-    height: 10rem;
-    background: #fff;
-} */
-  
+.mail-icon-outer{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    border: 1.4px solid #ddecfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mail-icon-inner{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1.4px solid #bfdcfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+}
