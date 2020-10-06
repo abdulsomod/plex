@@ -412,7 +412,11 @@ body{
 }
 
 .smith{
-    width: 53rem;
+    width: 51rem;
+    height: 10.5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
 }
 
 .icon-wrap{
@@ -477,6 +481,7 @@ mail-icon-inner{
     display: flex;
     margin: 2.5rem 0;
     color: rgba(0, 0, 0, .7);
+    font-family: montserrat;
 }
 
 .amt2 span{
@@ -488,3 +493,37 @@ mail-icon-inner{
     font-size: 2rem;
     font-weight: bold;
 }
+
+.heading{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80rem;
+    padding: 3rem 0;
+}
+
+.vity{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .5);
+}
+
+.vity h3{
+    margin-left: 1rem;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+}
+
+/* .mary-activity,
+.paul-activity,
+.alex-activity,
+.tommy-activity{
+    width: 80rem;
+    height: 8rem;
+    background: #fff;
+} */
