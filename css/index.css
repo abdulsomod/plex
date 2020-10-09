@@ -39,8 +39,6 @@ body{
     margin-top: 1rem;
 }
 
-
-
 .side-profile{
     display: flex;
     justify-content: center;
@@ -117,7 +115,7 @@ body{
 .page{
     padding: .8rem 3rem;
     background: #f7f7f7;
-
+    overflow: hidden;
 }
 
 .page-nav{
@@ -320,7 +318,7 @@ body{
     border-radius: 30px;
 }
   
-  .bar:after {
+.bar:after {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -330,9 +328,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar1:after{
+.bar1:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -342,9 +340,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar2:after{
+.bar2:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -354,9 +352,9 @@ body{
     background: rgb(141,192,253);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar3:after{
+.bar3:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -366,9 +364,8 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
-  
-  .bar4:after{
+}
+.bar4:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -378,9 +375,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar5:after{
+.bar5:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -390,9 +387,9 @@ body{
     background: rgba(231, 60, 126);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
+}
   
-  .bar6:after{
+.bar6:after{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -402,5 +399,131 @@ body{
     background: rgba(141, 192, 253);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-  }
-  
+}
+
+.mary{
+    display: flex;
+    width: 80rem;
+    height: 10rem;
+    margin-top: 2.6rem;
+    /* background: #fff; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smith{
+    width: 51rem;
+    height: 10.5rem;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.icon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-icon-outer{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    border: 1.4px solid #ddecfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mail-icon-inner{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1.4px solid #bfdcfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+}
+
+.incoming{
+    width: 24rem;
+    height: 7.5rem;
+    background: #fff;
+    padding: 1.5rem 1rem ;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-family: montserrat;
+}
+
+.in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#in{
+    color: rgba(0, 0, 0, .5);
+}
+
+.view{
+    background: #D8E9FE;
+    padding: .5rem .9rem;
+    border-radius: 15px;
+    color: #73B1FC;
+
+}
+
+.amt2{
+    display: flex;
+    margin: 2.5rem 0;
+    color: rgba(0, 0, 0, .7);
+    font-family: montserrat;
+}
+
+.amt2 span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.amt2 h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.heading{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80rem;
+    padding: 3rem 0;
+}
+
+.vity{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .5);
+}
+
+.vity h3{
+    margin-left: 1rem;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+}
+
+/* .mary-activity,
+.paul-activity,
+.alex-activity,
+.tommy-activity{
+    width: 80rem;
+    height: 8rem;
+    background: #fff;
+} */
